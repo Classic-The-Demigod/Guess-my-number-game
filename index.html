@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <title>Guess Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="message">You Fit Guess The Number? 🤨</h1>
+      <div class="col1">
+        <div class="guess-wrapper">
+          <span class="number">?</span>
+        </div>
+
+        <div class="info-container">
+          <div class="wrap">
+            <img src="/images/Star.svg" alt="star" />
+            <p>Your Score: <span class="score">20</span></p>
+          </div>
+          <!-- <div class="wrap">
+            <img src="/images/Hourglass.svg" id="hour" alt="Hour-Glass" />
+            <p class="chance">Chances Left: <span class="chance">10</span></p>
+          </div> -->
+          <div class="wrap">
+            <img src="/images/Cup.svg" alt="Cup" />
+            <p class="highscore">
+              High Score: <span class="high-score">0</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <p class="hint">|| Hint: Between 1 - 20 ||</p>
+        <input type="number" class="guess" name="" id="" />
+        <div class="btn-wrapper">
+          <button class="btn-reset">
+            <img class="img-reset" src="/images/Reset.svg" alt="reset" />
+          </button>
+          <button class="btn-check">
+            Check
+            <span><img src="/images/Hand.svg" class="btn-wave" alt="" /></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

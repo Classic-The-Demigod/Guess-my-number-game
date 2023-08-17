@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+// variables
+// border-radius: 1.25rem;
+// background: #FFF;
+// box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
+// border-radius: 1.25rem;
+// background: rgba(0, 0, 0, 0.80);
+// color: #14FF00;
+// color: #F00; 
+
+$ff-primary: 'Oxanium', cursive;
+
+// general styling
+
+.body {
+    font-family: $ff-primary;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    .message {
+        text-align: center;
+        font-family: $ff-primary;
+    }
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $ff-primary;
+
+    .guess-wrapper {
+        background-color: white;
+        z-index: 1;
+        border: 3px solid black;
+        padding-top: .5rem;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+
+
+        .number {
+            font-size: 4rem;
+        }
+    }
+    .info-container {
+        margin-top: -3rem;
+        padding: 3rem 3rem .5rem 3rem;
+        border-radius: 1.25rem;
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
+
+        .wrap{
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            gap: 10px;
+    
+    
+            #hour {
+                width: .8rem;
+            }
+    
+            img {
+                width: 1.1rem;
+            }
+        }
+    }
+}
+
+.col2 {
+    background-color: white;
+    font-family: $ff-primary;
+    padding: .5rem 1.8rem 2rem 1.8rem;
+    display: grid;
+    gap: 10px;
+            border-radius: 1.25rem;
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
+
+    .guess {
+        padding: .7rem;
+        border-radius: .6rem;
+        border: 2px solid black;
+        font-family: $ff-primary;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .hint {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .btn-wrapper {
+        display: inline-flex;
+        justify-content: space-between;
+
+        .btn-reset {
+            background: none;
+            border: none;
+        }
+
+        .btn-check {
+            font-family: $ff-primary;
+            padding: .3rem 1rem;
+            color: white;
+            background-color: black;
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+
+    
+
+    .img-reset {
+        width: 2rem;
+    }
+
+    .btn-wave {
+        width: 1.1rem;
+    }
+}

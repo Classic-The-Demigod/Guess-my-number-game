@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Oxanium", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.container .message {
+  text-align: center;
+  font-family: "Oxanium", cursive;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oxanium", cursive;
+}
+.col1 .guess-wrapper {
+  background-color: white;
+  z-index: 1;
+  border: 3px solid black;
+  padding-top: 0.5rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+.col1 .guess-wrapper .number {
+  font-size: 4rem;
+}
+.col1 .info-container {
+  margin-top: -3rem;
+  padding: 3rem 3rem 0.5rem 3rem;
+  border-radius: 1.25rem;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.col1 .info-container .wrap {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+.col1 .info-container .wrap #hour {
+  width: 0.8rem;
+}
+.col1 .info-container .wrap img {
+  width: 1.1rem;
+}
+
+.col2 {
+  background-color: white;
+  font-family: "Oxanium", cursive;
+  padding: 0.5rem 1.8rem 2rem 1.8rem;
+  display: grid;
+  gap: 10px;
+  border-radius: 1.25rem;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.col2 .guess {
+  padding: 0.7rem;
+  border-radius: 0.6rem;
+  border: 2px solid black;
+  font-family: "Oxanium", cursive;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.col2 .hint {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.col2 .btn-wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.col2 .btn-wrapper .btn-reset {
+  background: none;
+  border: none;
+}
+.col2 .btn-wrapper .btn-check {
+  font-family: "Oxanium", cursive;
+  padding: 0.3rem 1rem;
+  color: white;
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+}
+.col2 .img-reset {
+  width: 2rem;
+}
+.col2 .btn-wave {
+  width: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
